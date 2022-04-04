@@ -68,6 +68,8 @@ const Dashboard = () => {
         <Legend></Legend>
         <YAxis></YAxis>
       </LineChart>
+
+
       <BarChart width={450} height={300} data={data}>
         <CartesianGrid strokeDasharray="3 3" />
         <XAxis dataKey={"month"}></XAxis>
@@ -78,6 +80,8 @@ const Dashboard = () => {
         <Bar dataKey={"revenue"} fill="#8884d8"></Bar>
         <Bar dataKey={"sell"}></Bar>
       </BarChart>
+
+      
       <RadarChart outerRadius={90} width={730} height={250} data={data}>
         <PolarGrid />
         <PolarAngleAxis dataKey="month" />

@@ -4,3 +4,20 @@
     margin-top: 50px;
     
 }
+
+ @media screen and (max-width: 900px){
+  .charts{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    
+}  
+}
+
+
+@media screen and (max-width: 600px){
+  .charts{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+ }  
+
+}

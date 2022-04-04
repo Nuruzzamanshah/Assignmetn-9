@@ -47,7 +47,7 @@ const Blogs = () => {
             3.Difference among the Block, Inline and Inline-block elements?
           </h1>
           <p>
-            <span className="span-tag">Ans:</span>
+            <span className="span-tag">Ans: </span>
             <span className="span-tag">Inline elements:</span>
             Inline elements occupy only enough width that is sufficient to it
             and allows other elements next to it which are inline. Inline
