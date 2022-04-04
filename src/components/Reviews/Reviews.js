@@ -1,10 +1,19 @@
 import React from 'react';
+import useBooks from '../../hooks/useBooks';
+import Books from '../Books/Books';
+import './Reviews.css'
 
 const Reviews = () => {
+    const [books, setBooks] = useBooks();
     return (
-        <div>
-            <h1>this is reviews</h1>
+      <div>
+        <h1 className='customer'>Our Customers Opinion!!!</h1>
+        <div className='books-container'>
+          {books.map((book) => (
+            <Books key={book.id} book={book}></Books>
+          ))}
         </div>
+      </div>
     );
 };
 
