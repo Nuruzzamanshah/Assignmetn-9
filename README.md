@@ -1,6 +1,6 @@
 # Killing Hemingway Book Story
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project with creat react app(https://assignment-9-killing-hemnigway-router.netlify.app/reviews).
 
 * Use Home Page Where Show title.
 * Review page for showing customers reviews.
