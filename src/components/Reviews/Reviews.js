@@ -7,7 +7,7 @@ const Reviews = () => {
     const [books, setBooks] = useBooks();
     return (
       <div>
-        <h1 className='customer'>Our Customers Opinion!!!</h1>
+        <h1 className='customer'>Our Readers Opinion!!!</h1>
         <div className='books-container'>
           {books.map((book) => (
             <Books key={book.id} book={book}></Books>
