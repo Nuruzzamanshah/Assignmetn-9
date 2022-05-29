@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import useBooks from '../../hooks/useBooks';
-import Image from '../../Image/book.png'
+import Image from '../../Image/The-Old-Man-and-the-Sea.jpg'
 import Books from '../Books/Books';
 import './Home.css';
 
@@ -16,13 +16,10 @@ return (
     <div>
       <div className="killing">
         <div className="frist-part">
-          <h1 className="red">kILLING</h1>
-          <h1 className="white">HEMINGWAY</h1>
+          <h1 className="red">The Old Man</h1>
+          <h1 className="white">and the Sea</h1>
           <p>
-            Teddy Alexander is about to have a bad day that changes his life
-            forever. He's found his teacher's bad side, and she wants him
-            expelled. Although learning is his favorite thing to do, and Teddy
-            is good at it, what he really wants is a friend.
+          “Every day is a new day. It is better to be lucky. But I would rather be exact. Then when luck comes you are ready.” ~ Ernest Hemingway, The Old Man and the Sea. I picked up The Old Man and the Sea because I am participating in an Instagram readathon in which the prompt was to read a book that is a part of a “100 books to read in a lifetime” list.
           </p>
           <button className="btn">Bye Now</button>
         </div>
