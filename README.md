@@ -1,6 +1,6 @@
-# Killing Hemingway Book Story
+# The Old Man and the Sea
 
-This project with creat react app(https://assignment-9-killing-hemnigway-router.netlify.app/reviews).
+This project with creat react app().
 
 * Use Home Page Where Show title.
 * Review page for showing customers reviews.
